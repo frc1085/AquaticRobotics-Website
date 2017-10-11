@@ -1,0 +1,31 @@
+nav {
+  /* Set full width */
+  width: 100%;
+  height: 80px;
+
+  /* Set flex properties */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  /* Font */
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+nav > div[home] {
+  margin-right: auto;
+  margin-left: 30px;
+  font-size: 1.6rem;
+}
+
+nav > div[link]:first-of-type {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+nav > div[link] {
+  margin-right: 30px;
+  font-size: 1.5rem;
+}

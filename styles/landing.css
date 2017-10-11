@@ -1,0 +1,34 @@
+header {
+  width: 100%;
+  height: calc(100vh - 80px);
+
+  /* Flex alignment */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  /* Background gradient, with fallback to solid color */
+  background-color: #1658DD;
+  background: radial-gradient(circle at top, #1658DD, #0F0B69);
+  background: -webkit-radial-gradient(circle at top, #1658DD, #0F0B69);
+}
+
+main {
+  /* Mobile sizing without media queries */
+  max-width: 1000px;
+  width: 85%;
+  height: 1000px;
+
+  /* Center on page */
+  margin: 0 auto;
+
+  /* Card style */
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+  /* Overlay with header */
+  position: relative;
+  top: -80px;
+}

@@ -1,11 +1,17 @@
 html, body {
   padding: 0;
   margin: 0;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  font-family: verdana, calibri, sans-serif;
-  color:#d9d9d9;
-  position: relative;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #F7FAFC;
+  line-height: 1.6;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;  
 }
