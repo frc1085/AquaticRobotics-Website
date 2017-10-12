@@ -1,0 +1,33 @@
+/* Shmish Where do you want this code? */
+
+.donationpkgs{
+    width: 94%;
+    height: 96%;
+    display: inline-block;
+    align-content: center;
+    padding: 20px;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.left{
+    width: 33%;
+    background-color: #00ff00;
+    float: left;
+}
+
+.middle{
+    width: 34%;
+    background: #0000ff;
+    float: left;
+}
+
+.right{
+    width: 33%;
+    background-color: #ff0000;
+    float: left;
+}
+
+.bottom {
+
+}
