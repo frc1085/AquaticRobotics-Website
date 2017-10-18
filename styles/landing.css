@@ -20,8 +20,8 @@ header > div {
   margin-bottom: auto;
 
   /* Lean top */
-  position: relative;
-  bottom: 70px;
+  position: absolute;
+  bottom: 400px;
 
   /* Typography */
   color: #FFFFFF;
