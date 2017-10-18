@@ -14,6 +14,21 @@ header {
   background: -webkit-radial-gradient(circle at top, #1658DD, #0F0B69);
 }
 
+header > div {
+  /* Center in flexbox */
+  margin-top: auto;
+  margin-bottom: auto;
+
+  /* Lean top */
+  position: relative;
+  bottom: 70px;
+
+  /* Typography */
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
 main {
   /* Mobile sizing without media queries */
   max-width: 1000px;
