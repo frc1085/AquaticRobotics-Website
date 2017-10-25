@@ -1,0 +1,153 @@
+body {
+
+	/* Background gradient, with fallback to solid color */
+	background-color: #1658DD;
+	background: radial-gradient(circle at top, #1658DD, #0F0B69);
+	background: -webkit-radial-gradient(circle at top, #1658DD, #0F0B69);
+
+	/* Text Color */
+	color: #FFFFFF;
+		
+}
+
+header {
+	width: 100%;
+	height: calc(100vh - 80px);
+
+	/* Flex Alignment */
+	display: flex;
+	
+	justify-content: center;
+	align-content: center;
+
+}
+
+header > div {
+	/* Center in flexbox */
+	margin-top: auto;
+	margin-bottom: auto;
+	
+	/* Lean top */
+	position: absolute;
+	bottom: 250px;
+	
+	/* Typography */
+	color: #FFFFFF;
+	font-size: 2rem;
+	text-align: center;
+}
+
+main {
+  /* Mobile sizing without media queries */
+  width: 100%;
+  height: 1000px;
+
+	/* Flex Alignment */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+
+}
+
+main > .info {
+  width: 100%;
+  height: 50%;
+	
+	/* Content Alignment */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+
+main > .sponserlevels {
+	width: 100%;
+	height: 50%;
+
+	/* Setting up Alignment */
+	display: inline-block;
+	align-content: center;
+	margin-left: auto;
+	justify-content: center;
+}
+
+.sponserlevels > .button {
+	width: 55%;
+	height: 100%;
+	
+	/* Self Alignment */
+	float: left;
+
+	/* Content Alignment */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.button > p {
+	width: 80%;
+}
+
+.sponserlevels > .cardscroll {
+	width: 45%;
+	height: 100%;
+
+	/* Self Alignment */
+	float: left;
+
+	/* Content Alignment */
+	align-content: center;
+	justify-content: center;
+}
+
+.cardscroll > .card {
+	width: 40%;
+	height: 80%;
+
+	/* Card style */
+	background-color: #7FFFD4;
+	border-radius: 20px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	color: #000000;
+
+	/* Card Alignment */
+	margin-left: 30%;
+	margin-top: 10%;
+
+	/* Content Alignment */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card > p {
+	width: 80%;
+}
+
+h2 {
+	/* Fixing h2 */
+	display: block;
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h4 {
+	/* Fixing h4 */
+	display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
